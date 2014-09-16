@@ -1,3 +1,9 @@
+# The AQPhotoPicker Master Repo
+
+This repository contains the public [AQPhotoPicker](https://github.com/aqavi-paracha/AQPhotoPicker_cocoapod) specifications.
+
+## How to use
+
 Welcome to the AQPhotoPicker wiki!
 
 It's a cool Photo Picker app for iOS (tested on iPhone, not on iPad yet), and quite easy to use.
@@ -29,3 +35,7 @@ You're all set. Now all you've to do is write this code `[AQPhotoPickerView pres
 ![ios photo picker, camera](https://github.com/aqavi-paracha/AQPhotoPicker/blob/master/doc/IMG_1369.PNG)
 
 ![ios Photo picker, camera](https://github.com/aqavi-paracha/AQPhotoPicker/blob/master/doc/IMG_1370.PNG)
+
+## License
+
+These specifications and CocoaPods are available under the [MIT license](http://www.opensource.org/licenses/mit-license.php).
