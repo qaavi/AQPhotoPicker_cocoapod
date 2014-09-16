@@ -2,13 +2,21 @@
 
 This repository contains the public [AQPhotoPicker](https://github.com/aqavi-paracha/AQPhotoPicker_cocoapod) specifications.
 
-## How to use
 
-Welcome to the AQPhotoPicker wiki!
+## Welcome to the AQPhotoPicker!
 
 It's a cool Photo Picker app for iOS (tested on iPhone, not on iPad yet), and quite easy to use.
 
-You only have to copy three files in your project:
+
+## Requirements
+
+Your iOS project. (Tested on iOS versions 7.0 and 7.1. Should work on previous versions as well)
+
+> **Note**: This is ARC-enabled code. You'll need Xcode 4.2 and OS X 10.6, at least.  
+
+## Installation
+
+Either clone and copy the following three files in your project:
 
 **AQPhotoPickerView.h**
 
@@ -16,13 +24,21 @@ You only have to copy three files in your project:
 
 **AQPhotoPickerView.xib**
 
+Or add use [CocoaPods](http://cocoapods.org).
 
-Then import **#import "TTImagePickerView.h"** in your own class, and implement the delegate **TTImagePickerViewDelegate**.
 
-You're all set. Now all you've to do is write this code `[AQPhotoPickerView presentInViewController:self];` on the image tap method, or button click. And finally implement this delegate to received the photo from PhotoPicker or Camera.
+## Usage
 
-```python
- -(void)photoFromImagePickerView:(UIImage*) photo {
+import **#import "TTImagePickerView.h"** in your own class, and implement the delegate **TTImagePickerViewDelegate**.
+
+You're all set. Now all you've to do is write this code
+`[AQPhotoPickerView presentInViewController:self];` 
+on the image tap method, or button click, or for whatever event you want photo picker to appear.
+
+And finally implement this delegate to received the photo from PhotoPicker or Camera.
+
+```objc
+-(void)photoFromImagePickerView:(UIImage*) photo {
     
     [imageViewPic setImage:photo];
 }
