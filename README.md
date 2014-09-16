@@ -24,12 +24,12 @@ Either clone and copy the following three files in your project:
 
 **AQPhotoPickerView.xib**
 
-Or add use [CocoaPods](http://cocoapods.org).
+Or use [CocoaPods](http://cocoapods.org).
 
 
 ## Usage
 
-import **#import "TTImagePickerView.h"** in your own class, and implement the delegate **TTImagePickerViewDelegate**.
+Do **#import "TTImagePickerView.h"** in your own class, and implement the delegate **TTImagePickerViewDelegate**.
 
 You're all set. Now all you've to do is write this code
 `[AQPhotoPickerView presentInViewController:self];` 
