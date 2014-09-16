@@ -21,10 +21,10 @@ Then import **#import "TTImagePickerView.h"** in your own class, and implement t
 
 You're all set. Now all you've to do is write this code `[AQPhotoPickerView presentInViewController:self];` on the image tap method, or button click. And finally implement this delegate to received the photo from PhotoPicker or Camera.
 
-`-(void)photoFromImagePickerView:(UIImage*) photo {
+` -(void)photoFromImagePickerView:(UIImage*) photo {
     
     [imageViewPic setImage:photo];
-}`
+} `
 
 **DONE.**
 
