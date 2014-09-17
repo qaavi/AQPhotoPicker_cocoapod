@@ -12,7 +12,8 @@ Pod::Spec.new do |s|
 :tag => '0.7'
 }
 
-  s.source_files  = '*.{h,m,xib,png}'
+  s.source_files  = '*.{h,m}'
+  s.resources = '*.{png,xib}'
   s.requires_arc = true
 
 end
